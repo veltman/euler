@@ -1,5 +1,3 @@
-var d3 = require("d3");
-
 var amicable = [];
 
 for (var i = 1; i < 10000; i++) {
