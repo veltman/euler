@@ -35,7 +35,7 @@ function sum(array) {
 
 function divisors(num) {
 	var div = [];
-	for (var i = 0; i <= Math.sqrt(num); i++) {
+	for (var i = 1; i <= Math.sqrt(num); i++) {
 		if (i !== num && num % i === 0) {
 			div.push(i);
 			var b = num/i;
